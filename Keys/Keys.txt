@@ -1,0 +1,31 @@
+Passwort
+Conti_19
+
+Keystore Path: "C:\Users\karl\AppData\Local\Xamarin\Mono for Android\Keystore\Finance-Übung\Finance-Übung.keystore"
+Aliasname: finance-übung
+Erstellungsdatum: 25.10.2020
+Eintragstyp: PrivateKeyEntry
+Zertifikatskettenlänge: 1
+Zertifikat[1]:
+Eigentümer: CN="Karl Weber, OU=Freelancer, O=Karl Weber Software Solutions, L=Bargteheide, S=Schleswig-Holstein, C=49"
+Aussteller: CN="Karl Weber, OU=Freelancer, O=Karl Weber Software Solutions, L=Bargteheide, S=Schleswig-Holstein, C=49"
+Seriennummer: 158dfbad
+Gültig von: Sun Oct 25 12:03:46 CET 2020 bis: Tue Oct 18 13:03:46 CEST 2050
+Zertifikatfingerprints:
+	 MD5: 33:31:00:7C:71:15:0D:F9:06:A1:C6:38:10:16:53:DD
+	 SHA1: 93:FB:C2:DD:02:78:57:25:53:FC:12:16:3D:49:5F:82:C8:2F:D6:56
+	 SHA256: 14:1A:99:EA:E1:D2:34:49:F6:24:B7:E9:6B:29:39:1D:10:7F:51:22:DC:47:53:2F:E4:FB:35:BE:E4:BD:DF:2A
+Signaturalgorithmusname: SHA256withRSA
+Algorithmus des Public Key von Betreff: 2048-Bit-RSA-Schlüssel
+Version: 3
+
+Erweiterungen: 
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 22 10 76 A8 3B C2 BC C2   66 50 C6 39 C0 85 12 1B  ".v.;...fP.9....
+0010: 8B C6 40 15                                        ..@.
+]
+]
+
