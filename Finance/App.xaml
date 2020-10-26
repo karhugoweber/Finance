@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Finance.App">
     <Application.Resources>
-        <Color x:Key="darkColor">#000000</Color>
+        <Color x:Key="darkColor">#FF0000</Color>
         <Color x:Key="darkGrayColor">#454E5C</Color>
     </Application.Resources>
 </Application>
