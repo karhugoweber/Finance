@@ -38,7 +38,7 @@ namespace Finance.Model
         public DateTime PublishedDate { get; set; }
         [XmlElement(ElementName = "enclosure")]
         public Enclosure Enclosure { get; set; }
-        [XmlElement(ElementName = "creator", Namespace = "http://purl.org/rss/1.0/modules/content/")]
+        [XmlElement(ElementName = "creator", Namespace = "http://purl.org/dc/elements/1.1/")]
         public string Creator { get; set; }
     }
 

@@ -42,7 +42,6 @@ Global
 		{154CC417-21AE-4A00-918F-FD8CD83D3F7B}.AppStore|iPhoneSimulator.Deploy.0 = Release|Any CPU
 		{154CC417-21AE-4A00-918F-FD8CD83D3F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{154CC417-21AE-4A00-918F-FD8CD83D3F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{154CC417-21AE-4A00-918F-FD8CD83D3F7B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{154CC417-21AE-4A00-918F-FD8CD83D3F7B}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{154CC417-21AE-4A00-918F-FD8CD83D3F7B}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{154CC417-21AE-4A00-918F-FD8CD83D3F7B}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
@@ -104,6 +103,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {96DEDF3E-5A6C-4F85-AA65-BB68A1DFB35F}
+		SolutionGuid = {072A434A-E0CC-4807-95A9-45216FED2576}
 	EndGlobalSection
 EndGlobal
