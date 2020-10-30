@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Finance.Model;
+using Microsoft.AppCenter.Crashes;
 using Xamarin.Forms;
 
 namespace Finance.View
@@ -15,10 +16,22 @@ namespace Finance.View
 
         public PostPage(Item item)
         {
-            InitializeComponent();
-            Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetUseSafeArea(this, true);
+            try
+            {
+                throw (new Exception("Ausnahme gesendet von Karl"));
+                InitializeComponent();
+                Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetUseSafeArea(this, true);
 
-            webView.Source = item.ItemLink;
+                webView.Source = item.ItemLink;
+            }
+            catch (Exception ex)
+            {
+                var properties = new Dictionary<string, string>
+                {
+                    {"Blog_Post", $"{item.Title}" }
+                };
+                Crashes.TrackError(ex, properties);
+            }
         }
     }
 }
